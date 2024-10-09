@@ -12,7 +12,7 @@ This repository provides the **core codebase** for Loc4Lnc, covering essential c
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/Loc4Lnc.git
+git clone https://github.com/tourbiIIon/Loc4Lnc.git
 cd Loc4Lnc
 
 # Install dependencies
