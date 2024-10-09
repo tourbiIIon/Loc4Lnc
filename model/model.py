@@ -10,9 +10,9 @@ from sklearn.metrics import confusion_matrix, classification_report,f1_score,acc
 from sklearn.metrics import classification_report
 import torch.nn.functional as F
 
-test_seq = torch.load('feature_independent_all.pt',map_location=torch.device('cpu'))
+test_seq = torch.load('../feature/feature_independent_all.pt',map_location=torch.device('cpu'))
 test_seq = torch.stack(test_seq).squeeze()
-test_label = torch.load('label_independent_all.pt',map_location=torch.device('cpu'))
+test_label = torch.load('../feature/label_independent_all.pt',map_location=torch.device('cpu'))
 
 test_x = test_seq
 test_y = test_label
