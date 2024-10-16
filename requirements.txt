@@ -1,8 +1,6 @@
 enformer_pytorch==0.8.8
 imbalanced_learn==0.12.0
-imblearn==0.0
 matplotlib==3.7.5
-numpy==1.24.3
 numpy==1.24.4
 pandas==2.0.3
 polars==1.8.2
